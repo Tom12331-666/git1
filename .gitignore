@@ -1,0 +1,40 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+out/
+target/
+coverage/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs, caches, and temporary files
+*.log
+*.tmp
+.cache/
+tmp/
+temp/
+
+# Local unknown artifact
+*.euv
